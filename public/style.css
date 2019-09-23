@@ -1,0 +1,110 @@
+body {
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+td {
+    width: 50%;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+a:visited{
+	color: blue;
+}
+
+.display {
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-image:url(live-video-stream.jpg);
+}
+
+button {
+  background-color: #0000FF;
+  border-radius: 12px;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.control {
+   margin-left: auto;
+	margin-right: auto;
+	background-image:url(live-video-stream.jpg);
+}
+
+.control-button {
+	background-color: #000080;
+    width: 40%;
+    min-height: 30px;
+}
+
+.title {
+    vertical-align: top;
+}
+
+.go {
+    background-color: green;
+}
+
+.fade {
+    background-color: yellow;
+}
+
+.off {
+    background-color: gray;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.no-display {
+    display: none;
+}
+
+.status {
+    height: 125px;
+    vertical-align: text-top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message {
+    height: 125px;
+    max-height: 125px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.msg-time {
+    color: blue;
+}
+
+.cueMsg {
+    color: orange;
+}
+
+.selfMsg {
+    color: green;
+}
+
+.peerMsg {
+    color: red;
+}
