@@ -9,7 +9,7 @@ pipeline{
 			}
 			stage('tests') {
 				steps {
-					bat 'start cmd.exe /c run.bat'
+					bat 'start cmd.exe /k run.bat'
 				}
 			}
 		}
